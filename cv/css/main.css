@@ -365,6 +365,30 @@ section.hero .inner-hero {
 .timeline-desc {
     float: left;
 }
+
+/*タイムラインUL　CSS設定　ここから*/
+
+.timeline-desc ul li {
+    position: relative;
+    padding-top: 15px;
+  }
+  
+.timeline-desc ul li::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 20px; /*".5em"*/
+    left: -1em;
+    width: 6px;
+    height: 6px;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+
+  /*タイムラインUL　CSS設定　ここまで*/
+
 .timeline-date span {
     background: #4e93e6;
     border: 2px solid #3281cd;
@@ -401,6 +425,19 @@ section.hero .inner-hero {
     font-size: 10px;
     text-transform: uppercase;
 }
+.timeline-desc h5 {
+    font-size: 15px;
+    font-style: bold;
+}
+.timeline-desc h5 span{
+    font-size: 10px;
+}
+
+.timeline-desc h5 span{
+    font-size: 10px;
+    font-style: bold;
+}
+
 .block-button ul li {
     display: inline-block;
 }
