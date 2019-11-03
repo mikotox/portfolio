@@ -381,7 +381,7 @@ section.hero .inner-hero {
     display: block;
     content: '';
     position: absolute;
-    top: 15px; /*".5em"*/
+    top: 18px; /*".5em"*/
     left: -1em;
     width: 6px;
     height: 6px;
