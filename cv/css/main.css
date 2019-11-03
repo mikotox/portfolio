@@ -278,6 +278,9 @@ section.hero .inner-hero {
 .block-content .info-list li span {
     color: #333333;
 }
+.block-content p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
 /*End about section*/
 
 
@@ -316,7 +319,7 @@ section.hero .inner-hero {
     background: #fafafa;
     border: 3px solid #ffffff;
     color: #333333;
-    font-family: "fontello";
+    font-family: "fontello", 'Noto Sans JP', sans-serif;
     font-size: 20px;
     height: 50px;
     left: -5px;
@@ -364,20 +367,21 @@ section.hero .inner-hero {
 .timeline-date,
 .timeline-desc {
     float: left;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 /*タイムラインUL　CSS設定　ここから*/
 
 .timeline-desc ul li {
     position: relative;
-    padding-top: 15px;
+    padding-top: 10px;
   }
   
 .timeline-desc ul li::after {
     display: block;
     content: '';
     position: absolute;
-    top: 20px; /*".5em"*/
+    top: 15px; /*".5em"*/
     left: -1em;
     width: 6px;
     height: 6px;
