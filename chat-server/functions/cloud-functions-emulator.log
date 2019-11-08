@@ -1,0 +1,15 @@
+2019-11-08T07:44:40.804Z - info: User function triggered, starting execution
+2019-11-08T07:44:40.809Z - info: Execution took 6 ms, user function completed successfully
+2019-11-08T07:44:40.809Z - error: TypeError: admin.databese is not a function
+    at createChannel (/Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:22:29)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:53:5
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:188:7)
+2019-11-08T07:44:40.878Z - info: Worker for v1 closed due to file changes.
+2019-11-08T07:44:40.895Z - error: Function worker killed by signal: SIGTERM

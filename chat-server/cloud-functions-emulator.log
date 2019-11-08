@@ -1,0 +1,186 @@
+2019-11-08T07:46:26.439Z - info: User function triggered, starting execution
+2019-11-08T07:46:26.444Z - info: Execution took 6 ms, user function completed successfully
+2019-11-08T07:46:26.445Z - error: TypeError: admin.databese is not a function
+    at createChannel (/Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:22:29)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:53:5
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:188:7)
+2019-11-08T07:48:05.975Z - error: SyntaxError: Unexpected token ( in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/body-parser/lib/types/json.js:158:10)
+    at parse (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/body-parser/lib/types/json.js:83:15)
+    at /Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:224:16)
+    at done (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:215:7)
+    at endReadableNT (_stream_readable.js:1198:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '("cname": "general"}',
+  type: 'entity.parse.failed'
+}
+2019-11-08T07:49:00.192Z - error: SyntaxError: Unexpected token ( in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/body-parser/lib/types/json.js:158:10)
+    at parse (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/body-parser/lib/types/json.js:83:15)
+    at /Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:224:16)
+    at done (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:215:7)
+    at endReadableNT (_stream_readable.js:1198:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '("cname": "general"}',
+  type: 'entity.parse.failed'
+}
+2019-11-08T07:49:05.973Z - info: Execution took 60005 ms, finished with status: 'timeout'
+2019-11-08T07:49:05.981Z - info: Execution took 5793 ms, finished with status: 'crash'
+2019-11-08T07:49:05.992Z - error: Function worker killed by signal: SIGTERM
+2019-11-08T07:51:42.603Z - error: SyntaxError: Unexpected token ( in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/body-parser/lib/types/json.js:158:10)
+    at parse (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/body-parser/lib/types/json.js:83:15)
+    at /Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:224:16)
+    at done (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/Users/mikotox/.nodebrew/node/v13.0.1/lib/node_modules/firebase-tools/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:215:7)
+    at endReadableNT (_stream_readable.js:1198:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  expose: true,
+  statusCode: 400,
+  status: 400,
+  body: '("cname": "general"}',
+  type: 'entity.parse.failed'
+}
+2019-11-08T07:52:42.581Z - info: Execution took 60007 ms, finished with status: 'timeout'
+2019-11-08T07:52:42.600Z - error: Function worker killed by signal: SIGTERM
+2019-11-08T07:53:08.793Z - info: User function triggered, starting execution
+2019-11-08T07:53:08.803Z - info: Execution took 8 ms, user function completed successfully
+2019-11-08T07:53:08.803Z - error: TypeError: admin.databese is not a function
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:60:29
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:188:7)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:224:17
+2019-11-08T07:57:03.735Z - info: User function triggered, starting execution
+2019-11-08T07:57:03.740Z - info: Execution took 6 ms, user function completed successfully
+2019-11-08T07:57:03.741Z - error: TypeError: admin.databese is not a function
+    at createChannel (/Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:22:29)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:53:5
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:188:7)
+2019-11-08T07:57:23.175Z - info: User function triggered, starting execution
+2019-11-08T07:57:23.179Z - info: Execution took 3 ms, user function completed successfully
+2019-11-08T07:57:23.180Z - error: TypeError: admin.databese is not a function
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:60:29
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:188:7)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:224:17
+2019-11-08T07:59:25.592Z - info: Worker for v1 closed due to file changes.
+2019-11-08T07:59:25.605Z - error: Function worker killed by signal: SIGTERM
+2019-11-08T08:04:12.937Z - info: User function triggered, starting execution
+2019-11-08T08:04:12.942Z - info: Execution took 6 ms, user function completed successfully
+2019-11-08T08:04:12.943Z - error: ReferenceError: query is not defined
+    at checkUser (/Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:28:13)
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:317:13)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:188:7)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:224:17
+    at originCallback (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:214:15)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:219:13
+2019-11-08T08:05:29.743Z - info: Worker for v1 closed due to file changes.
+2019-11-08T08:05:29.754Z - error: Function worker killed by signal: SIGTERM
+2019-11-08T08:06:03.158Z - info: User function triggered, starting execution
+2019-11-08T08:06:03.160Z - info: Execution took 8 ms, user function completed successfully
+2019-11-08T08:06:03.161Z - error: TypeError: admin.databese is not a function
+    at createChannel (/Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:23:29)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:54:5
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:188:7)
+2019-11-08T08:07:23.839Z - info: User function triggered, starting execution
+Execution took 6 ms, user function completed successfully
+2019-11-08T08:07:23.842Z - error: TypeError: admin.databese is not a function
+    at createChannel (/Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:23:29)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:54:5
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:188:7)
+2019-11-08T08:09:22.059Z - info: Worker for v1 closed due to file changes.
+2019-11-08T08:09:22.073Z - error: Function worker killed by signal: SIGTERM
+2019-11-08T08:09:29.750Z - info: User function triggered, starting execution
+2019-11-08T08:09:29.795Z - info: Execution took 47 ms, user function completed successfully
+2019-11-08T08:09:29.796Z - error: ReferenceError: JsSON is not defined
+    at createChannel (/Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:49:34)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:54:5
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:188:7)
+2019-11-08T08:09:41.490Z - error: Function worker killed by signal: SIGTERM
+2019-11-08T08:10:04.240Z - info: User function triggered, starting execution
+2019-11-08T08:10:04.290Z - info: Execution took 51 ms, user function completed successfully
+2019-11-08T08:10:27.921Z - info: User function triggered, starting execution
+2019-11-08T08:10:27.925Z - info: Execution took 3 ms, user function completed successfully
+2019-11-08T08:10:27.925Z - error: TypeError: admin.databese is not a function
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/index.js:61:29
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/express/lib/router/index.js:275:10)
+    at cors (/Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:188:7)
+    at /Users/mikotox/Documents/git/portfolio/chat-server/functions/node_modules/cors/lib/index.js:224:17
+2019-11-08T08:11:03.383Z - info: Worker for v1 closed due to file changes.
+2019-11-08T08:11:03.396Z - error: Function worker killed by signal: SIGTERM
+2019-11-08T08:11:27.193Z - info: User function triggered, starting execution
+2019-11-08T08:11:28.177Z - info: Execution took 984 ms, user function completed successfully

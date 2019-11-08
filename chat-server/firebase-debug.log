@@ -1,0 +1,53 @@
+[debug] [2019-11-08T08:14:52.746Z] ----------------------------------------------------------------------
+[debug] [2019-11-08T08:14:52.748Z] Command:       /Users/mikotox/.nodebrew/node/v13.0.1/bin/node /Users/mikotox/.nodebrew/current/bin/firebase deploy --only functions
+[debug] [2019-11-08T08:14:52.748Z] CLI Version:   3.18.0
+[debug] [2019-11-08T08:14:52.748Z] Platform:      darwin
+[debug] [2019-11-08T08:14:52.748Z] Node Version:  v13.0.1
+[debug] [2019-11-08T08:14:52.749Z] Time:          Fri Nov 08 2019 17:14:52 GMT+0900 (日本標準時)
+[debug] [2019-11-08T08:14:52.749Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-11-08T08:14:52.758Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-08T08:14:52.758Z] > authorizing via signed-in user
+[debug] [2019-11-08T08:14:52.759Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/demoapp-6395b  
+  
+ Fri Nov 08 2019 17:14:52 GMT+0900 (日本標準時)
+[debug] [2019-11-08T08:14:53.402Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-08T08:14:53.404Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/demoapp-6395b/tokens  
+  
+ Fri Nov 08 2019 17:14:53 GMT+0900 (日本標準時)
+[debug] [2019-11-08T08:14:54.470Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-08T08:17:10.781Z] ----------------------------------------------------------------------
+[debug] [2019-11-08T08:17:10.783Z] Command:       /Users/mikotox/.nodebrew/node/v13.0.1/bin/node /Users/mikotox/.nodebrew/current/bin/firebase deploy --only functions
+[debug] [2019-11-08T08:17:10.784Z] CLI Version:   3.18.0
+[debug] [2019-11-08T08:17:10.784Z] Platform:      darwin
+[debug] [2019-11-08T08:17:10.784Z] Node Version:  v13.0.1
+[debug] [2019-11-08T08:17:10.784Z] Time:          Fri Nov 08 2019 17:17:10 GMT+0900 (日本標準時)
+[debug] [2019-11-08T08:17:10.785Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-11-08T08:17:10.794Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-08T08:17:10.795Z] > authorizing via signed-in user
+[debug] [2019-11-08T08:17:10.796Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/demoapp-6395b  
+  
+ Fri Nov 08 2019 17:17:10 GMT+0900 (日本標準時)
+[debug] [2019-11-08T08:17:11.443Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-08T08:17:11.444Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/demoapp-6395b/tokens  
+  
+ Fri Nov 08 2019 17:17:11 GMT+0900 (日本標準時)
+[debug] [2019-11-08T08:17:35.509Z] ----------------------------------------------------------------------
+[debug] [2019-11-08T08:17:35.511Z] Command:       /Users/mikotox/.nodebrew/node/v13.0.1/bin/node /Users/mikotox/.nodebrew/current/bin/firebase deploy --only functions
+[debug] [2019-11-08T08:17:35.511Z] CLI Version:   3.18.0
+[debug] [2019-11-08T08:17:35.511Z] Platform:      darwin
+[debug] [2019-11-08T08:17:35.511Z] Node Version:  v13.0.1
+[debug] [2019-11-08T08:17:35.512Z] Time:          Fri Nov 08 2019 17:17:35 GMT+0900 (日本標準時)
+[debug] [2019-11-08T08:17:35.512Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-11-08T08:17:35.521Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-08T08:17:35.521Z] > authorizing via signed-in user
+[debug] [2019-11-08T08:17:35.523Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/demoapp-6395b  
+  
+ Fri Nov 08 2019 17:17:35 GMT+0900 (日本標準時)
+[debug] [2019-11-08T08:17:36.179Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-08T08:17:36.181Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/demoapp-6395b/tokens  
+  
+ Fri Nov 08 2019 17:17:36 GMT+0900 (日本標準時)
+[debug] [2019-11-08T08:18:05.786Z] <<< HTTP RESPONSE 200
